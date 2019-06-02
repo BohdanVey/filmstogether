@@ -8,5 +8,4 @@ var firebaseConfig = {
   appId: "1:206620805973:web:67a5de03d2be683d"
 };
 firebase.initializeApp(firebaseConfig);
-var auth = firebase.firestore();
-var video = $('.img1 img').attr(src);
+var videodb = firebase.firestore();
